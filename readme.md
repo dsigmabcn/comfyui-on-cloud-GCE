@@ -1,6 +1,6 @@
 # ComfyUI on Cloud
 
-
+This is a fork for personal use to reduce the amount of models to be installed in the GCE. Please check out the great tutorial from karaposu
 [![Tutorial](https://img.youtube.com/vi/PZwnbBaJH3I/0.jpg)](https://www.youtube.com/watch?v=PZwnbBaJH3I)
 
 The main goal of this repository is to provide a quick and easy method for individuals interested in stable diffusion to set up their own comfyUI server application with GPU support. This application can be accessed from any device capable of running a browser, including ARM-based Macs, iPads, and even smartphones, without concerns about performance, speed, or privacy issues.
@@ -36,7 +36,7 @@ Normally, a full month's usage of a T4 GPU with 6 VCPU cores, 16 GB RAM, and 100
 2. Log in to your VM and execute the following commands:
 
     ```bash
-    git clone https://github.com/karaposu/comfyui-on-cloud
+    git clone https://github.com/dsigma/comfyui-on-cloud
     chmod +x ./comfyui-on-cloud/src/install.sh
     chmod +x ./comfyui-on-cloud/src/virgin_vm.sh
   
